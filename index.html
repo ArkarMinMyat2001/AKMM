@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fc Barcelona</title>
+	<style type="">
+		body{
+			font-family: monospace;
+			margin: 0px;
+			padding: 0px;
+
+
+		}
+		*{
+			box-sizing: border-box;
+
+		}
+		.container{
+			width: 95%;
+			margin: auto;
+		}
+		.l-col{
+			float: left;
+		}
+		.r-col{
+			float: right;
+			margin-top: 25px;
+
+		}
+		.r-col a{
+			text-decoration: none;
+			color: black;
+			padding: 10px 20px;
+			font-size:18px;
+		}
+		.row::after{
+			clear: both;
+			content:"";
+			display: table;
+
+		}
+		.slide{
+			background: url(background.jpg);
+			height: 450px;
+			
+		}
+		.slide h1{
+			font-size: 45px;
+			color: white;
+			position: absolute;
+			top: 40%;
+			left: 40%;
+
+		}
+		.slide span{
+			background: black;
+			opacity: 0.5;
+
+		}
+		.p-col{
+			width: 23%;
+			float: left;
+			margin: 10px;
+			position: relative;
+
+		}
+		.p-col img{
+			width:100%;
+
+
+		}
+		.p-col .ptext{
+			position: absolute;
+			background: black;
+			color: white;
+			top:-15px;
+			left: 0px;
+			padding: 10px;
+
+		}
+		button{
+			width: 100%;
+			border: none;
+			padding: 10px;
+
+		}
+		input{
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid gray;
+		}
+		.button{
+			width: 250px;
+			background: black;
+			color: white;
+			padding: 10px;
+		}
+		footer{
+			background: black;
+			color: white;
+			padding:15px;
+			text-align: center;
+		}
+		#header{
+			position: fixed;
+			top: 0px;
+			z-index: 1;
+			width: 100%;
+			background: grey;
+               }
+              .p-top{
+              	padding-top: 50px;
+              	
+              }
+              .p-size{
+              	height: 200px;
+              }
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container" id="header">
+		<div class="row">
+			<div class="l-col">
+				<h1>FC Barcelona</h1>
+			</div>
+			<div class="r-col">
+				<a href="#Players">Players</a>
+				<a href="#Coaches">Coaches</a>
+				<a href="#Contact Us">Contact Us</a>
+			</div>			
+		</div>		
+	</div>
+
+	<!-- slide -->
+	<div class="slide">
+		<h1><span>FC</span>Barcelona</h1>
+	</div>
+	<!-- slide -->
+	<!-- player -->
+	<div class="container p-top" id="Players">
+		<h1>Players</h1>
+		<hr>
+		<div class="row">
+			<div class="p-col">
+				<img src="S_ROBERTO.webp" class="p-size">
+				<p class="ptext">S ROBERTO</p>
+			</div>
+			<div class="p-col">
+				<img src="TER STEGEN.webp" class="p-size">
+				<p class="ptext">TER STEGEN</p>
+			</div>
+			<div class="p-col">
+				<img src="FRENKIE DE JONG.webp" class="p-size">
+				<p class="ptext">FRENKIE DK JONG</p>
+			</div>
+			<div class="p-col">
+				<img src="GAVI_.webp" class="p-size">
+				<p class="ptext">Gavi</p>
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="p-col">
+				<img src="gundogan.webp" class="p-size">
+				<p class="ptext">Gundogan</p>
+			</div>
+			<div class="p-col"> 
+				<img src="lenglet.webp" class="p-size">
+				<p class="ptext">lenglet</p>
+			</div>
+			<div class="p-col">
+				<img src="PEDRI.webp" class="p-size">
+				<p class="ptext">Pedri</p>
+			</div>
+			<div class="p-col">
+				<img src="ROBERT LEWANDOWSKI.webp" class="p-size">
+				<p class="ptext">ROBERT LEWANDOWSKI</p>
+			</div>
+			
+		</div>
+	</div>
+	<!--Player-->
+	<!-- Coach -->
+	<div class="container p-top" id="Coaches">
+		<h1>Coaches</h1>
+		<hr>
+		<p>A football coach plans and leads training sessions with the aim of helping players improve at playing the game. Football coaches develop the skills, motivation and fitness of football players and teams</p>
+		<div class="row">
+			<div class="p-col">
+				<img src="Ernesto Valverde(2017-2020).jpg">
+				<h2>Ernesto Valverde(2017-2020)</h2>
+				<p>Manager</p>
+				<p>Ernesto Valverde Tejedor is a Spanish football manager and former player who played as a forward. He is the current manager of La Liga club Athletic Bilbao. Over ten seasons, he amassed La Liga totals of 264 games and 68 goals, adding 55 matches and nine goals in Segunda División.</p>
+				<button>Contact</button>
+
+			
+			</div>
+			<div class="p-col">
+				<img src="Xavi Harnendez(2021-Present).webp">
+				<h2>XAVI HARNENDEZ(2021-Present)</h2>
+				<p>Manager</p>
+				<p>Xavier Hernández Creus, also known as Xavi Hernández or simply Xavi, is a Spanish professional football manager and former player who is currently the manager of La Liga club Barcelona.</p>
+				<button>Contact</button>
+
+			
+			</div>
+			<div class="p-col">
+				<img src="Quique Setien(2020).webp">
+				<h2>QUIQUE SETIEN</h2>
+				<p>Manager</p>
+				<p>Enrique "Quique" Setién Solar is a Spanish football manager and former player who played as a central midfielder. He is the current manager of La Liga club Villarreal.</p>
+				<button>Contact</button>
+
+			
+			</div>
+			<div class="p-col">
+				<img src="Ronald Coemand(2020-2021).webp">
+				<h2>RONALD COEMAND</h2>
+				<p>MANAGER</p>
+				<p>Ronald Koeman is a Dutch professional football manager and former player who is the manager of the Netherlands national team.</p>
+				<button>Contact</button>
+
+			
+			</div>
+		</div>
+	</div>
+	<!-- Coach -->
+	<!-- Contact Us -->
+	<div class="container p-top" id="Contact Us">
+		<h1>Contact Us</h1>
+		<hr>
+		<p>lets get in touch and talk about your next projects</p>
+		<form>
+		<input type="text" name="" placeholder="Name"><br>
+		<input type="email" name="" placeholder="email"><br>
+		<input type="text" name="" placeholder="Subject"><br>
+		<input type="submit" name="" value="Send Messages" class="button" ><br>
+	</form>
+	</div>
+	<!-- Contact Us -->
+	
+	<!-- footer -->
+	<footer>
+		<h2>Presented by FC Barcelona</h2>
+	</footer>
+	<!-- footer -->
+
+
+</body>
+</html>
